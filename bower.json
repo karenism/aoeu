@@ -1,0 +1,23 @@
+{
+  "name": "otc",
+  "version": "0.0.0",
+  "authors": [
+    "Karenism <karebearinmind@yahoo.com>"
+  ],
+  "description": "common packaging for javascript, css, templates",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "~2.1.0",
+    "moment": "~2.5.1",
+    "jsStart" : "./app/javascript/Start.js"
+  }
+}

@@ -18,6 +18,5 @@
   "dependencies": {
     "jQuery": "~2.1.0",
     "moment": "~2.5.1",
-    "jsStart" : "./app/javascript/Start.js"
   }
 }

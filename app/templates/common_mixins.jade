@@ -4,3 +4,8 @@ mixin blurred_image(image_url)
       img(style="background-image: url('#{image_url}');")
       .header_overlay
       
+      
+mixin table_time(time , availability)
+  li.table_times__item
+    .button.radius(class=availability)= time
+      

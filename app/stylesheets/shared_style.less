@@ -1,0 +1,39 @@
+.blur(@amount:10px){
+  -webkit-filter: blur(@amount); 
+  -moz-filter: blur(@amount);
+  -o-filter: blur(@amount);
+  -ms-filter: blur(@amount); 
+  filter: blur(@amount);
+  filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius='@amount')";
+  
+}
+
+.header {
+  overflow:hidden;
+  height:350px;
+  position:relative;
+  .header_image {
+    width: 130%;
+    height: 130%;
+    overflow:hidden;
+    position: relative;
+  }
+  .header_overlay {
+    background-color: #000;
+    opacity:0.25;
+    position:absolute;
+    width:100%;
+    height:100%;
+  }
+  img {
+    background-position: center center;
+    background-size: cover;
+    overflow:hidden;
+    width: 100%;
+    .blur(10px);
+    height:100%;
+    position:absolute;
+    z-index:-1;
+  }
+  
+}
